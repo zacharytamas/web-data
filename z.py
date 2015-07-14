@@ -33,7 +33,6 @@ def new(file_type):
   if file_type == "post":
     print
     print "So you'd like to start a new post, eh?"
-    print "We'll start with a draft you can publish later using z.py publish."
     print
 
     title = raw_input("Post title: ")
