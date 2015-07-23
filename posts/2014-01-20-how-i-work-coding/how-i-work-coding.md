@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'How I Work: Coding'
+subtitle: "A look into the tools and tricks I use to get work done."
 ---
 
 My primary development tool is none other than [Sublime Text 2](http://www.sublimetext.com/2). It is my goto text editor for most everything. For programming, I use it exclusively. I have a [PyCharm](http://www.jetbrains.com/pycharm/) license [my employer](/portfolio/lights-on/) bought my team but I could never get into it. Aside from programming, I use Sublime Text for basically everything else as well, including taking notes, drafting letters, making on-the-spot todo lists, etc. I'm even writing this post in Sublime Text right now using the Markdown format.
