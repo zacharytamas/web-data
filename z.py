@@ -13,12 +13,16 @@ def _getTemplate(file_name):
 
 def _createFile(file_type, slug, content):
   today = date.today()
-  directory_name = "%04d-%02d-%02d-%s" % (
-    today.year, today.month, today.day, slug
-  )
-  os.makedirs("posts/" + directory_name)
-  file_name = "%s.md" % slug
-  path = "posts/%s/%s" % (directory_name, file_name)
+  if file_type == "post":
+    directory_name = "%04d-%02d-%02d-%s" % (
+      today.year, today.month, today.day, slug
+    )
+    os.makedirs("posts/" + directory_name)
+    file_name = "%s.md" % slug
+    path = "posts/%s/%s" % (directory_name, file_name)
+  elif file_type == "book":
+    file_name = "%04d-%02d-%s" % (today.year, today.month, slug)
+    path = "books/" + file_name
 
   with open(path, "w") as f:
     f.write(content)
@@ -46,6 +50,28 @@ def new(file_type):
     body = template.replace("$POST_TITLE", title).replace("$POST_SLUG", slug)
 
     path = _createFile("post", slug, body)
+    _openInAtom(path)
+  elif file_type == "book":
+    print
+    print "So you read a new book?"
+    print
+
+    title = raw_input("Book title: ")
+    tentative_slug = title.lower().replace(" ", "-")
+    slug = raw_input(" Book slug: [%s] " % tentative_slug)
+    author = raw_input("Author: ")
+    category = raw_input("Category: ")
+    comments = raw_input("Comments: ")
+
+    if slug == "":
+      slug = tentative_slug
+
+    template = _getTemplate("book.json")
+    body = (template.replace("$TITLE", title)
+                    .replace("$AUTHOR", author)
+                    .replace("$CATEGORY", category)
+                    .replace("$COMMENTS", comments))
+    path = _createFile("book", slug, body)
     _openInAtom(path)
   else:
     print "Unknown type to create. :("
