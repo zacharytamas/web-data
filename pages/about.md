@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "About Me"
-permalink: /about/
 ---
 
 I'm a curious twentysomething with a healthy obsession with the power of ideas and what can be done with them. It just so happens that in today's world, most powerful ideas fuel technology, and so that is where my primary interests lie.
