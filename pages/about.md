@@ -5,7 +5,7 @@ title: "About Me"
 
 I'm a curious twentysomething with a healthy obsession with the power of ideas and what can be done with them. It just so happens that in today's world, most powerful ideas fuel technology, and so that is where my primary interests lie.
 
-<--<div class="pullout image">
+<!--<div class="pullout image">
   <img src="/public/about-me/me.jpg" alt="Me during my first White Christmas at 23." width="100%">
   <p class="caption">Me during my first White Christmas at 23.</p>
 </div>-->
