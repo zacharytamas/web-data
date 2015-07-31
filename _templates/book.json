@@ -7,5 +7,5 @@
   "finished": false,
   "series": "",
   "category": "$CATEGORY",
-  "comments": "Very long but likewise comprehensive."
+  "comments": "$COMMENTS"
 }
