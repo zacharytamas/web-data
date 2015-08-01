@@ -2,9 +2,11 @@
   "title": "Benjamin Franklin: An American Life",
   "author": "Walter Isaacson",
   "date_started": "2015-07-12",
+  "date_abandoned": "2015-08-01",
   "date_finished": null,
   "pages": 586,
-  "finished": false,
+  "pages_read": 305,
+  "status": "reading",
   "series": "founding-fathers",
   "category": "Biography",
   "comments": "Very long but likewise comprehensive."

@@ -2,9 +2,11 @@
   "title": "$TITLE",
   "author": "$AUTHOR",
   "date_started": "2015-07-12",
+  "date_abandoned": null,
   "date_finished": null,
+  "pages_read": 0,
   "pages": 586,
-  "finished": false,
+  "status": "reading",
   "series": "",
   "category": "$CATEGORY",
   "comments": "$COMMENTS"
