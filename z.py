@@ -22,7 +22,7 @@ def _createFile(file_type, slug, content):
     path = "posts/%s/%s" % (directory_name, file_name)
   elif file_type == "book":
     file_name = "%04d-%02d-%s" % (today.year, today.month, slug)
-    path = "books/" + file_name
+    path = "books/" + file_name + ".json"
 
   with open(path, "w") as f:
     f.write(content)
