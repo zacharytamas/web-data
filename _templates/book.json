@@ -6,8 +6,9 @@
   "date_finished": null,
   "pages_read": 0,
   "pages": 586,
+  "fiction": false,
   "status": "reading",
-  "series": "",
+  "series": null,
   "category": "$CATEGORY",
   "comments": "$COMMENTS"
 }
