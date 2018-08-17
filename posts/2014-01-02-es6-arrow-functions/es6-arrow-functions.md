@@ -12,18 +12,18 @@ It's interesting seeing how they're fitting this Coffee concept into the confine
 Of course Coffee uses indentation to denote blocks and JavaScript explicitly requires braces for blocks of longer than one statement, so although we are getting the arrow syntax in ES6 we'll never get this:
 
 {% highlight coffeescript %}
-  sayHello = (person) =>
-    output = 'Hello ' + person
-    return output
+sayHello = (person) =>
+output = 'Hello ' + person
+return output
 {% endhighlight %}
 
 But this current compromise is enough to not fight too much over:
 
 {% highlight javascript %}
-  var sayHello = (person) => {
-    var output = 'Hello ' + person;
-    return output;
-  }
+var sayHello = (person) => {
+var output = 'Hello ' + person;
+return output;
+}
 {% endhighlight %}
 
 They are only taking the fat-arrow functionality from Coffee, however, so these arrow functions are always using lexical `this` which is nice in cases where you need `this` in your function to refer to the `this` in scope when the function was defined&mdash;not where it was called.
@@ -32,21 +32,21 @@ They are only taking the fat-arrow functionality from Coffee, however, so these 
 
 // Old way:
 (function () {
-  this.foo = 'bar';
-  var _this = this;
-  return function () {
-    // If we said just `this` below it would not necessary
-    // refer to what we expected. By making a closed over
-    // variable called `_this` we can specifically state
-    // what we want.
-    return _this.foo;
-  }
+this.foo = 'bar';
+var \_this = this;
+return function () {
+// If we said just `this` below it would not necessary
+// refer to what we expected. By making a closed over
+// variable called `_this` we can specifically state
+// what we want.
+return \_this.foo;
+}
 })();
 
 // New way:
 (function () {
-  this.foo = 'bar';
-  return () => this.foo;
+this.foo = 'bar';
+return () => this.foo;
 })();
 
 {% endhighlight %}
@@ -59,7 +59,7 @@ In Coffee, the parenthesis are optional if-and-only-if the function requires no 
 
 {% highlight coffeescript %}
 $(document).ready ->
-  doStuff()
+doStuff()
 {% endhighlight %}
 
 If the function you're defining accepts named arguments at all, you must provide the parens:
@@ -68,7 +68,7 @@ If the function you're defining accepts named arguments at all, you must provide
 add = (a, b) -> a + b
 {% endhighlight %}
 
-In ECMAScript 6 arrow functions, for some reason, the parens are optional when the function accepts *only one* named argument, and are required for all other cases&mdash;including when no arguments are declared.
+In ECMAScript 6 arrow functions, for some reason, the parens are optional when the function accepts _only one_ named argument, and are required for all other cases&mdash;including when no arguments are declared.
 
 {% highlight javascript %}
 // Parens required.
@@ -81,20 +81,20 @@ var sayHello = name => console.log('Hello ' + name + '!');
 var bark = () => console.log('Ruff!');
 {% endhighlight %}
 
-This seems odd and error-prone. By making the parens optional only on the case of one named argument, you really aren't saving me much at all. In fact, I think without them there makes it even more confusing looking: *why is this identifier here? Where did I declare this? Oh, I'm declaring it right now.* On the other side, having a pair of empty parens makes me feel like I have leftover cruft from a refactor until I look after it and see the `=>` and think *Ah, this is a function.*
+This seems odd and error-prone. By making the parens optional only on the case of one named argument, you really aren't saving me much at all. In fact, I think without them there makes it even more confusing looking: _why is this identifier here? Where did I declare this? Oh, I'm declaring it right now._ On the other side, having a pair of empty parens makes me feel like I have leftover cruft from a refactor until I look after it and see the `=>` and think _Ah, this is a function._
 
 ### Implicit return
 
 Another slight quirk: you may have noticed the case where my ES6 arrow-function didn't have a return statement. If you're familiar with Ruby, Coffee, or other such languages, you may be familiar with this implicit return of the last expression evaluated. Don't be fooled however, this rule only applies to arrow functions that are only one expression.
 
 {% highlight javascript %}
-  var sayHello = (person) => {
-    var output = 'Hello ' + person;
-    return output;  // this return is required
-  }
+var sayHello = (person) => {
+var output = 'Hello ' + person;
+return output; // this return is required
+}
 
-  // no return required
-  var sayHello = (person) => 'Hello ' + person;
+// no return required
+var sayHello = (person) => 'Hello ' + person;
 {% endhighlight %}
 
 ---

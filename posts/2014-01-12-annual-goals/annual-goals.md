@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 'Annual Goals'
+title: "Annual Goals"
 ---
 
-I'm not really one to set "resolutions" for a new year, but I do however set high-level goals for what I'd like to accomplish during a year. I try to be general but yet still specific in doing this.
+I'm not really one to set "resolutions" for a new year, but I do however set high-level goals for what I'd like to accomplish during a year. I try to be general but yet still specific in doing this.<!-- more -->
 
 My goal for 2013 was:
 
@@ -11,9 +11,9 @@ My goal for 2013 was:
 
 I'm pleased to say that I knocked this goal out of the park. See, I avoided JavaScript for years because my first attempt at learning it was all wrong. The extent of my JavaScript usage was enough to implement a jQuery plugin I found online, but I avoided too much more than that.
 
-JavaScript is a very flexible language that lets you do almost anything&mdash;and it's this fact that can make it a very intimidating language for someone like me who prefers to learn things the "right way". With so many ways of doing the same thing, which do you do? Is there a right way to do this? Probably, but which way is it? I don't know, I'm just learning this language... *eek*.
+JavaScript is a very flexible language that lets you do almost anything&mdash;and it's this fact that can make it a very intimidating language for someone like me who prefers to learn things the "right way". With so many ways of doing the same thing, which do you do? Is there a right way to do this? Probably, but which way is it? I don't know, I'm just learning this language... _eek_.
 
-I eventually learned that the reason JavaScript can be so intimidating is that it's not just JavaScript: you have to understand HTML/CSS, the DOM, the browser event loop, and so on *ad nauseam*. I resolved to spend 2013 learning how all of these concepts fit together and to use that knowledge to confidently engineer applications that I didn't fear were "all wrong".
+I eventually learned that the reason JavaScript can be so intimidating is that it's not just JavaScript: you have to understand HTML/CSS, the DOM, the browser event loop, and so on _ad nauseam_. I resolved to spend 2013 learning how all of these concepts fit together and to use that knowledge to confidently engineer applications that I didn't fear were "all wrong".
 
 In 2013 I built countless small projects in JavaScript using various frameworks (Ember.js, Angular.js, Backbone.js, Meteor.js) just to comprehensively learn the language in an agnostic way (by playing with so many different styles of organizing project). I also was able to then go prime time and build three major JavaScript projects with full test suites and fully maintainable codebases.
 
