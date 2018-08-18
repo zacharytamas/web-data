@@ -1,14 +1,10 @@
 ---
 title: "How I'm batching email these days"
-date: '2018-03-09T23:46:37.121Z'
 layout: post
-draft: false
-path: '/posts/batching-email/'
-category: 'Systems'
+category: "Systems"
 tags:
-  - 'Autism'
-description:
-  'Everyone agrees that "living in your Inbox" is bad and a very reactive way to live your life. Lately I have been tinkering with ways to pull away from email without missing anything important.'
+  - "Autism"
+description: 'Everyone agrees that "living in your Inbox" is bad and a very reactive way to live your life. Lately I have been tinkering with ways to pull away from email without missing anything important.'
 ---
 
 Everyone agrees that "living in your Inbox" is bad and a very reactive way to live your life.

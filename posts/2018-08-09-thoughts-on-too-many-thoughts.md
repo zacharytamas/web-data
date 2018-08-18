@@ -1,14 +1,10 @@
 ---
-title: 'Thoughts on having too many thoughts'
-date: '2018-08-09T16:31:37.121Z'
+title: "Thoughts on having too many thoughts"
 layout: post
-draft: false
-category: 'Thoughts'
+category: "Thoughts"
 tags:
   - Autism
-description:
-  'I am a very varied person with lots of interests that aren’t always related and I tend to cycle through them in a manor that is not entirely efficient. I’ve always wanted to build a cohesive identity online but it’s always been an optimization problem: how should I spread out my interests in such a way that person interested in only certain ones can reliably find and enjoy my content without it getting lost in the sea of other interests I have.'
-path: '/posts/thoughts-on-too-many-thoughts'
+description: "I am a very varied person with lots of interests that aren’t always related and I tend to cycle through them in a manor that is not entirely efficient. I’ve always wanted to build a cohesive identity online but it’s always been an optimization problem: how should I spread out my interests in such a way that person interested in only certain ones can reliably find and enjoy my content without it getting lost in the sea of other interests I have."
 ---
 
 I am a very varied person with lots of interests that aren’t always related and I tend to cycle through them in a manor that is not entirely efficient. I’ve always wanted to build a cohesive identity online but it’s always been an optimization problem: how should I spread out my interests in such a way that person interested in only certain ones can reliably find and enjoy my content without it getting lost in the sea of other interests I have.

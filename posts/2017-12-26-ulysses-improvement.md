@@ -1,12 +1,8 @@
 ---
-title: 'An improvement I would make to Ulysses'
-date: '2017-12-26T23:46:37.121Z'
+title: "An improvement I would make to Ulysses"
 layout: post
-draft: false
-path: '/posts/ulysses-improvement/'
-category: 'Thoughts'
-description:
-  'In the Ulysses writing app, you cannot have glued sheets inside a group that is not sorted as Manual. It gets all messy if you switch the group to any other sort order because the glued sheets get re-ordered as well.'
+category: "Thoughts"
+description: "In the Ulysses writing app, you cannot have glued sheets inside a group that is not sorted as Manual. It gets all messy if you switch the group to any other sort order because the glued sheets get re-ordered as well."
 ---
 
 In the [Ulysses writing app](https://ulyssesapp.com/), you cannot have glued sheets inside a group that is not sorted as Manual. It gets all messy if you switch the group to any other sort order because the glued sheets get re-ordered as well.
