@@ -1,6 +1,7 @@
 ---
 title: "Thoughts on having too many thoughts"
 layout: post
+draft: false
 category: "Thoughts"
 tags:
   - Autism
