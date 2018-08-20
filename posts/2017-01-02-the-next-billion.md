@@ -1,6 +1,7 @@
 ---
 title: "Progressive Web Apps and The Next Billion"
 category: "Software"
+layout: 'post'
 tags:
   - Web Development
 ---
