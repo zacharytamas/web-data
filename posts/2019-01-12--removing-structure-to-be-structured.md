@@ -1,6 +1,7 @@
 ---
 title: Removing structure to be more structured
 date: 2019-01-12
+layout: post
 category: Systems
 ---
 
